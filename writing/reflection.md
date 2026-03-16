@@ -1,7 +1,7 @@
 # CS101 Spring 2026 — Practice Midterm Reflection
 
-Name: Add Your Name Here  
-Date: Add Date Here
+Name: Muhammed Bello 
+Date: March 16, 2026
 
 After completing the practice test, please reflect on your experience by
 answering the questions below. Replace each `TODO` with a thoughtful response
@@ -17,7 +17,7 @@ Which topics felt most comfortable, and which ones felt most difficult?
 
 **Your Answer:**
 
-TODO
+I felt confident while completing the practice test. Questions about loops, dictionaries, and conditionals felt comfortable to me. Some questions about slicing, lambda functions, and operator precedence were a little more difficult. Overall, the test helped me review important Python concepts and showed me which topics I should practice more before the midterm.
 
 ---
 
@@ -28,7 +28,7 @@ Explain the concept being tested and describe why the correct answer is right.
 
 **Your Answer:**
 
-TODO
+One tricky question involved exponentiation order. In Python, the ** operator is evaluated from right to left. For example, 3 ** 2 ** 2 becomes 3 ** (2 ** 2). First Python calculates 2 ** 2 = 4, then it calculates 3 ** 4 = 81. Understanding operator precedence is important when reading mathematical expressions in Python.
 
 ---
 
@@ -39,7 +39,7 @@ with a positive step versus a negative step. Give one original example of each.
 
 **Your Answer:**
 
-TODO
+One hard question involved exponentiation order. In Python, the ** operator is evaluated from right to left. For example, 3 ** 2 ** 2 becomes 3 ** (2 ** 2). First Python calculates 2 ** 2 = 4, then it calculates 3 ** 4 = 81. Understanding operator precedence is important when reading mathematical expressions in Python.
 
 ---
 
@@ -51,7 +51,7 @@ dictionary and a set. When would you choose each?
 
 **Your Answer:**
 
-TODO
+A list is mutable, meaning its values can be changed, while a tuple is immutable and cannot be modified after creation. Lists are useful when data needs to change, while tuples are useful for fixed data. A dictionary stores data as key-value pairs, while a set stores unique values without duplicates.
 
 ---
 
@@ -63,7 +63,10 @@ the caller omits that argument.
 
 **Your Answer:**
 
-TODO
+A default parameter is a value used when the caller does not provide an argument. For example:
+     def greet(name="Guest"):
+    print("Hello", name)
+
 
 ---
 
@@ -81,7 +84,7 @@ for n in range(1, 11):
 
 **Your Answer:**
 
-TODO
+result = [n * 2 for n in range(1, 11) if n % 3 == 0]
 
 ---
 
@@ -92,7 +95,12 @@ What is the value of `2 ** 2 ** 3`? Show your step-by-step reasoning.
 
 **Your Answer:**
 
-TODO
+Python evaluates exponentiation from right to left.
+
+Step 1: 2 ** 3 = 8
+Step 2: 2 ** 8 = 256
+
+So 2 ** 2 ** 3 = 256.
 
 ---
 
@@ -102,7 +110,7 @@ TODO
 
 **Your Answer:**
 
-TODO
+Classes are blueprints used to create objects in Python. They group data and functions together. Classes help organize code and make programs easier to maintain. For example, a Book class might store a title and number of pages for each book object.
 
 ---
 
