@@ -323,7 +323,7 @@ b) `letters[1::2]`
 c) `letters[1:5:2]`  
 d) `letters[2::2]`
 
-**Your answer:** c
+**Your answer:** b
 
 ---
 
