@@ -3,8 +3,8 @@
 Name: Muhammed Bello 
 Date: Add Date Here
 
-**Instructions:** For each question, record your answer by replacing `TODO` with
-the letter of the single best response (a, b, c, or d). 
+**Instructions:** For each question, record your answer by replacing `TODO`
+with the letter of the single best response (a, b, c, or d).
 
 ---
 
@@ -177,7 +177,7 @@ b) "42"
 c) True  
 d) 0xFF
 
-**Your answer:** d
+**Your answer:** c
 
 ---
 
